@@ -1,4 +1,6 @@
-section .data
+[midterm1task.txt](https://github.com/user-attachments/files/21810205/midterm1task.txt)#Midterm
+
+1. [Uploading msection .data
     var1 dd 10        ; example value
     var2 dd 3         ; example value
     var3 dd 7         ; example value
@@ -37,8 +39,8 @@ main:
   
     mov eax, 0
     ret
+idterm1task.txt…]()
 
-1. ![midterm1task.txt](https://github.com/user-attachments/files/21810094/midterm1task.txt)
 
 2. ![midterm1](https://github.com/user-attachments/assets/8bc31771-2a97-4ab0-80f5-1e416de54499)
    ![mid2](https://github.com/user-attachments/assets/91f906d3-e655-4b07-bb50-9e8011026c20)
