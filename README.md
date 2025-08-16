@@ -1,4 +1,6 @@
-[midterm1task.txt](https://github.com/user-attachments/files/21810205/midterm1task.txt)#Midterm
+#Midterm
+
+[midterm1task.txt](https://github.com/user-attachments/files/21810205/midterm1task.txt)
 
 1. [Uploading msection .data
     var1 dd 10        ; example value
@@ -51,7 +53,7 @@ idterm1task.txt…]()
 ![20250722_224628](https://github.com/user-attachments/assets/5fbbd97c-8a95-42e2-bfea-a390c7387e8b)
 
 4. Write a code that identifies an odd or an even number
- ![midtermtask3oddOrEven.txt](https://github.com/user-attachments/files/21809373/midtermtask3oddOrEven.txt)
+ [midtermtask3oddOrEven.txt](https://github.com/user-attachments/files/21809373/midtermtask3oddOrEven.txt)
 section .data
     number  dd  5
     evenMsg db "Even", 10, 0
