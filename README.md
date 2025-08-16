@@ -1,4 +1,4 @@
-[midterm1task.txt](https://github.com/user-attachments/files/21809030/midterm1task.txt)# midterm
+[midtermtask3oddOrEven.txt](https://github.com/user-attachments/files/21809221/midtermtask3oddOrEven.txt)[midterm1task.txt](https://github.com/user-attachments/files/21809030/midterm1task.txt)# midterm
 
 1.[Usection .data
     var1 dd 10        ; example value
@@ -50,6 +50,42 @@ ploading midterm1task.txt…]()
 ![20250722_224628](https://github.com/user-attachments/assets/5fbbd97c-8a95-42e2-bfea-a390c7387e8b)
 
 4. Write a code that identifies an odd or an even number
+ [midtermtask3oddOrEven.txt](https://github.com/user-attachments/files/21809373/midtermtask3oddOrEven.txt)
+section .data
+    number  dd  5
+    evenMsg db "Even", 10, 0
+    oddMsg  db "Odd", 10, 0
+
+section .text
+    extern printf
+    global main
+
+main:
+    mov eax, [number]
+    xor edx, edx
+    mov ecx, 2
+    div ecx
+    cmp edx, 0
+    jne is_odd
+
+is_even:
+    push evenMsg
+    call printf
+    add esp, 4
+    jmp exit
+
+is_odd:
+    push oddMsg
+    call printf
+    add esp, 4
+
+exit:
+    mov eax, 0
+    ret
+
+
+
+
    ![mid4](https://github.com/user-attachments/assets/7736f0be-f16d-4242-96ca-bae99e2e073e)
 ![midterm3](https://github.com/user-attachments/assets/4569c528-2631-440a-9d9b-ee279ff73156)
 
