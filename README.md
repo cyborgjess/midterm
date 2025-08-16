@@ -1,4 +1,4 @@
-[midtermtask3oddOrEven.txt](https://github.com/user-attachments/files/21809221/midtermtask3oddOrEven.txt)[midterm1task.txt](https://github.com/user-attachments/files/21809030/midterm1task.txt)# midterm
+(https://github.com/user-attachments/files/21809030/midterm1task.txt)# midterm
 
 1.[Usection .data
     var1 dd 10        ; example value
